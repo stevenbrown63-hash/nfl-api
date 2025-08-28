@@ -1,4 +1,6 @@
 fastapi
-uvicorn
-nfl-data-py
-pandas
+uvicorn[standard]
+nfl_data_py
+pandas==2.2.2
+numpy==1.26.4
+
