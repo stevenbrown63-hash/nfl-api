@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "NFL Advanced Analytics",
+  "name_for_model": "nfl_data_py_plugin",
+  "description_for_human": "Access NFL play-by-play, player stats, schedules, and team data from nflfastR/nflverse (via nfl_data_py).",
+  "description_for_model": "Provides advanced NFL analytics including EPA, WPA, CPOE, Air Yards, RYOE, play-by-play data, player usage, team schedules, and rosters.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://nfl-api-bj6q.onrender.com/openapi.json"
+  },
+  "servers": [
+    { "url": "https://nfl-api-bj6q.onrender.com" }
+  ]
+}
