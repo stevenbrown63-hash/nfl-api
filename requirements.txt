@@ -1,6 +1,7 @@
-fastapi
-uvicorn[standard]
-nfl_data_py
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
 pandas==2.2.2
 numpy==1.26.4
+nfl_data_py==0.3.2
+
 
